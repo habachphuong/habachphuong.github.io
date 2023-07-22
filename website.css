@@ -103,6 +103,23 @@ footer a {
     font-size: 150%;
 }
 
+.register_port {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #144171;
+    color: #C69749;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .register_port:hover {
+    background-color: #27374D;
+    color: #DDE6ED;
+  }
+
 @media(max-width: 800px) {
     #left_side {
         flex:100%;
