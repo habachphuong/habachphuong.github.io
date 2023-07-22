@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name = "HABACHPHUONG website" content="habachphuong official website"/>
+    <title>Register Form</title>
+</head>    <form id="registerform" method="post" action="confirm.html">
+
+        <h1>REGISTER COURSES</h1>
+        <p>Fill in your information here, press Next to confirm your info, press Cancel to go back to main menu</p>
+        <fieldset>
+            <legend>Personal Detail</legend>
+                <label for="fname">Enter your First name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname">
+        </fieldset>
+        
+        <br/>
+        <fieldset>
+            <legend>Education</legend>
+                <label for="secondary">Secondary</label>            
+                <input type="radio" id="secondary" name="education" value="secondary">
+
+                <label for="highschool">Highschool</label>            
+                <input type="radio" id="highschool" name="education" value="highschool">     
+
+                <label for="university">University</label>            
+                <input type="radio" id="university" name="education" value="university">
+                
+        </fieldset>
+        <br/>
+        <fieldset>
+            <legend>Courses</legend>
+                <label for="finan_report">Financial Reporting</label>
+                <input type="checkbox" id="finan_report" name="finan_report" value="Selected"><br/>
+                <label for="excel">Excel Beginner- Advanced</label>
+                <input type="checkbox" id="excel" name="excel" value="Selected"><br/>
+                <label for="accountant">Accountant Basics</label>
+                <input type="checkbox" id="accountant" name="accountant" value="Selected"><br/>
+                
+        </fieldset>
+        <br/>
+            <label for="payment">Choose payment method:</label>
+            <select name="payment" id="payment">
+                <option value="None">Please Select</option>
+                <option value="Credit card">Credit card</option>
+                <option value="Paypal">Paypal</option>
+                <option value="Master card">Master card</option>
+            </select>
+        <br/>
+        <input type="submit" value="Next">
+    </form>
+</body>
+</html>
